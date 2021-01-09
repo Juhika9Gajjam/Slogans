@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Slogans</title>
+<!--    <style>-->
+<!--        .landing-page-->
+<!--        {-->
+<!--           -->
+<!--            background-size: cover;-->
+<!--            color:whitesmoke;-->
+<!--            height: 100vh;-->
+<!--        }-->
+<!--        .wrapper-->
+<!--        {-->
+<!--            background-color: rgba(0,0,0,0.5);-->
+<!--            height: 100vh;-->
+<!--        }-->
+<!--    </style>-->
+</head>
+<body>
+<nav class="navbar   bg-dark">
+    <div class="container">
+        <span class="navbar-brand text-white"><h1 class="Display-1">Slogans<span class="m-5">#SAVE WATER SAVE FUTURE</span></h1></span>
+    </div>
+</nav>
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <span class="h5 text-white font-size-bold text-center"> Select One Option From Below </span>
+                    </div>
+                    <div class="card-body">
+                        <select onchange="myFunction()" id="Myselect" class="form-select form-select-lg m-3" aria-label=".form-select-lg example">
+                            <option selected value="0">Open this select menu</option>
+                            <option value="1">1st Slogan</option>z
+                            <option value="2">2nd Slogan</option>
+                            <option value="3">3rd Slogan</option>
+                            <option value="4">4th Slogan</option>
+                            <option value="5">5th Slogan</option>
+                            <option value="6">6th Slogan</option>
+                            <option value="7">7th Slogan</option>
+                            <option value="8">8th Slogan</option>
+                            <option value="9">9th Slogan</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8" >
+                <img src="" alt="." height="100%" width="100%" id="one">
+                <div class="card">
+                    <div class="card-body ">
+                        <h1 id="two" class="text-center font-size-bold "></h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Myselect").value;
+            if (x == 1) {
+                document.getElementById("one").src = "";
+                document.getElementById("two").innerHTML = "You are 70% WATER, save YOURSELF";
+            }
+            if (x == 2) {
+                document.getElementById("one").src = "";
+                document.getElementById("two").innerHTML = "Water conservation for today is life conservation for tomorrow";
+            }
+            if (x == 3) {
+                document.getElementById("one").src = "https://i.pinimg.com/originals/2b/99/79/2b9979dbdec135c6bddc79fd3c7e98fd.jpg";
+                document.getElementById("two").innerHTML = "";
+            }
+            if (x == 4) {
+                document.getElementById("one").src = "";
+                document.getElementById("two").innerHTML = "Water Water everywhere try to save it if you care";
+            }
+            if (x == 5) {
+                document.getElementById("one").src = "https://cf.ltkcdn.net/greenliving/images/std/211325-425x329-Underwater-treasure.jpg";
+                document.getElementById("two").innerHTML = "";
+            }
+            if (x == 6) {
+                document.getElementById("one").src = "";
+                document.getElementById("two").innerHTML = "Life depends on water, but the reservoir dependes on you";
+            }
+            if (x == 7) {
+                document.getElementById("one").src = "https://cdn.shopify.com/s/files/1/0317/6829/articles/Save_Water_Before_Its_Too_Late.001_516254b9-2223-4aa9-bbb1-b989f253910f_600x.jpeg?v=1476361427";
+                document.getElementById("two").innerHTML = "";
+            }
+            if (x == 8) {
+                document.getElementById("one").src = "https://i.pinimg.com/originals/7f/5a/01/7f5a016d13b84b58939c4552dfc00a6a.jpg";
+                document.getElementById("two").innerHTML = ""
+            }
+            if (x == 9) {
+                document.getElementById("one").src = "https://i2.wp.com/imp.center/i/wp-content/uploads/sites/4/2016/11/Slogans-on-Water.png?fit=1200%2C600&ssl=1";
+                document.getElementById("two").innerHTML = ""
+            }
+        }
+    </script>
+</body>
+</html>
