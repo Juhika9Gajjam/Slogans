@@ -1,1 +1,1 @@
-# Slogans
+# Slogans.github.io
